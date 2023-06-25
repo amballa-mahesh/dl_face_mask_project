@@ -1,0 +1,10 @@
+Flask
+opencv-python
+numpy
+tensorflow
+pandas
+joblib
+matplotlib
+seaborn
+scikit-learn
+# -e .
