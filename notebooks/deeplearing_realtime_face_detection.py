@@ -16,10 +16,10 @@ from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.models import load_model
 print('libraries loaded')
 
-best_model = load_model(r"C:/Users/Amballa/Desktop/best_model.h5")
-  print('model loaded')
+best_model = load_model(r"artifacts\best_model.h5")
+print('model loaded')
 
-face_cascade = cv2.CascadeClassifier(r'C:/Users/Amballa/Desktop/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier(r'artifacts/haarcascade_frontalface_default.xml')
 print('cascade loaded...')
 
 def image_treat(image):
@@ -29,7 +29,7 @@ def image_treat(image):
   image_change = np.expand_dims(image,axis=0)
   return(image_change)
 
-cap.release()
+
 
 cap = cv2.VideoCapture(0)
 while cap.isOpened():
