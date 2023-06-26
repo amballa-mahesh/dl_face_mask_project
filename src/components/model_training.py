@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow
 import os
-import sys
 from src.logger import logging
 from src.exception import CustomException
 import tkinter
