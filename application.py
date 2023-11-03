@@ -1,6 +1,6 @@
 from flask import Flask, render_template,url_for,Response
 import os
-os.chdir('e:/Vscode_files/End_to_End_Ml_project_Facemask')
+os.chdir('D:/Git Data/face_mask_dl_git')
 from src.components.utils import generate_frame
 
 app = Flask(__name__)   
